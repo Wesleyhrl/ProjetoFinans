@@ -1,0 +1,88 @@
+/** GERAL  **********************/
+
+/** Header  **********************/
+header{
+    padding: 10px 0px;
+    background-color: #FFBF16;
+}
+#menu #nav-target a:hover{
+    border-bottom: solid 2px;
+}
+#nav-target{
+    text-align: center;   
+}
+/** SECTION TOPO  **********************/
+@media (max-width: 992px) {
+    #capa{
+        display: none;
+    }
+    .conteudo img{
+        display: none;
+      }
+      #conteudo1{
+        background: url(img/saiba.png) no-repeat center;
+        background-size: contain;
+      }
+      #conteudo2{
+        background: url(img/juros.png) no-repeat center;
+        background-size: contain;
+      }  
+}
+section#topo{
+    background-color: #FFBF16;
+}
+
+#descricao{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#descricao p{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+/** Conteúdo  **********************/
+.conteudo{
+    margin-top: 10px;
+    border-bottom: solid 2px rgba(211, 211, 211, 0.274);
+    padding: 60px 0;
+} 
+.conteudo #infos{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#conteudo1 img{
+    width: 100%;
+}
+#conteudo2 img{
+  width: max-content;
+}
+.conteudo  button{
+    margin: 30px 0px;
+}
+.conteudo h1{
+    margin-bottom: 30px;
+}
+/** conteudo-final  **********************/
+#conteudo-final img{
+    width: 100%;
+}
+#conteudo-final{
+    margin: 30px 0px;
+    border-bottom: solid 2px rgba(211, 211, 211, 0.274);
+}
+/** Footer  **********************/
+#redes-socias{
+    text-align: end;
+}
+#redes-socias a{
+    margin: 0px 6px;
+    font-size: 25px;
+    color: black;
+}
+#aviso{
+    text-align: center;
+}
